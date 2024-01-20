@@ -8,13 +8,7 @@ public class Convert {
         java.util.Scanner scanner = new Scanner(System.in);
         System.out.println("Choose a conversion from options 1-4 or enter '-1' to quit:");
         unit = scanner.nextInt();
-        //System.out.println("Enter the amount:");//
-        //amount = scanner.nextFloat();//
-
-        //scanner.close();//
-
-
-
+       
         while (unit > 0){
             if (unit == 1){
             System.out.println("Enter the amount:");
